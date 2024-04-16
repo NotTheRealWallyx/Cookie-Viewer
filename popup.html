@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Viewer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 10px;
+            max-width: 400px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Cookie Viewer</h1>
+    <table id="cookieTable">
+        <thead>
+            <tr>
+                <th>Cookie Name</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody id="cookieBody"></tbody>
+    </table>
+    <script src="popup.js"></script>
+</body>
+
+</html>
