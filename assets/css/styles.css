@@ -2,7 +2,7 @@
 body {
   font-family: 'Roboto', Arial, sans-serif;
   padding: 10px;
-  max-width: 400px;
+  max-width: 100%;
   background-color: #f9f9f9;
   color: #333;
 }

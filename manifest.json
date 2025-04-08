@@ -13,5 +13,9 @@
     "48": "assets/images/icon.png",
     "128": "assets/images/icon.png"
   },
-  "host_permissions": ["*://*/*"]
+  "host_permissions": ["*://*/*"],
+  "minimum_chrome_version": "29",
+  "options_ui": {
+    "open_in_tab": false
+  }
 }
