@@ -1,25 +1,25 @@
 body {
-    font-family: Arial, sans-serif;
-    padding: 10px;
-    max-width: 400px;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  max-width: 400px;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 table {
-    width: 100%;
-    border-collapse: collapse;
+  width: 100%;
+  border-collapse: collapse;
 }
 
 th,
 td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
 }
 
 th {
-    background-color: #f2f2f2;
+  background-color: #f2f2f2;
 }
